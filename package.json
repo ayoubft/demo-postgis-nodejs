@@ -1,0 +1,29 @@
+{
+  "name": "wm-22-project",
+  "version": "1.0.0",
+  "description": "Precipitations thematic in Morocco",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "precipitations",
+    "morocco",
+    "webmapping",
+    "leaflet",
+    "nodejs",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "Ayoub FATIHI",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.2",
+    "express": "^4.17.3",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
