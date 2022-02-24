@@ -45,8 +45,11 @@ npm install body-parser
 node index.js
 ```
 ![Screenshot_20220224_112945](https://user-images.githubusercontent.com/63267601/155507170-c1f9342b-51c1-4671-91a2-a43fffe8c4b4.png)
-6. Enjoy your app at : `http://localhost:3000/`
+
+6. Enjoy your app at : `http://localhost:3000/`.
+
 7. For these spatial queries please fetch the **geometry** as `GeoJSON` and alias **geom** as: `ST_AsGeoJSON(geom) AS geom`
+
 8. Try like this query (maroc table needed to be in your db):
 ```
 SELECT id, ST_AsGeoJSON(geom) AS geom FROM maroc
